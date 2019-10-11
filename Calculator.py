@@ -1,13 +1,11 @@
 print("calculator made with coffee and sakshi")
+print()
 def add(x, y):
-   return x + y
-# This function subtracts two numbers 
+   return x + y 
 def subtract(x, y):
    return x - y
-# This function multiplies two numbers
 def multiply(x, y):
    return x * y
-# This function divides two numbers
 def divide(x, y):
    return x / y
 print("Select operation.")
@@ -15,7 +13,6 @@ print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
-# Take input from the user 
 choice = input("Enter choice(1/2/3/4):")
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
