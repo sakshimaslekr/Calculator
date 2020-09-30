@@ -1,3 +1,6 @@
+
+# Program make a simple calculator
+
 print("calculator made with coffee and sakshi")
 print()
 def add(x, y):
@@ -25,4 +28,4 @@ elif choice == '3':
 elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2))
 else:
-   print("Input Unacceptable!")
+   print("Invalid Input")
