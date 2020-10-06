@@ -1,0 +1,36 @@
+print("1.Addition")
+print("2.Subtraction")
+print("3.Multiplication")
+print("4.Division")
+print("5.Square")
+print("6.Square Root")
+print("7.power of")
+c=input("please enter your choice ")
+if c=="1":
+    a=int(input("enter first number "))
+    b=int(input("enter second number "))
+    print(a+b)
+elif c=="2":
+    a=int(input("enter first number "))
+    b=int(input("enter second number "))
+    print(a-b)
+elif c=="3":
+    a=int(input("enter first number "))
+    b=int(input("enter second number "))
+    print(a*b)
+elif c=="4":
+    a=int(input("enter first number "))
+    b=int(input("enter second number "))
+    print(a/b)
+elif c=="5":
+    a=int(input("enter number "))
+    print(a**2)
+elif c=="6":
+    a=int(input("enter first number "))
+    print(a**0.5)
+elif c=="7":
+    a=int(input("enter first number "))
+    b=int(input("enter second number "))
+    print(a**b)
+else:
+    print("not perfect choice")
